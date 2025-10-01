@@ -107,5 +107,10 @@ namespace WinFormsApp2
             itemnameTxtbox.Text = "Pocari";
             PriceTxtbox.Text = "65";
         }
+
+        private void LESSON_1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

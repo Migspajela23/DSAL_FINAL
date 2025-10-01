@@ -124,9 +124,6 @@
   <data name="unnamed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\unnamed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="539555444_122112520628972517_4996634911245591351_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\539555444_122112520628972517_4996634911245591351_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="0deaa60342b3c4b4737b7730188431881" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\0deaa60342b3c4b4737b7730188431881.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -138,6 +135,9 @@
   </data>
   <data name="539567545_122112520718972517_8781704504447620843_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\539567545_122112520718972517_8781704504447620843_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="537822903_122111781608972517_1309101002612292458_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\537822903_122111781608972517_1309101002612292458_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,13 +157,55 @@
   <data name="538799789_122112520694972517_61736075356862616_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\538799789_122112520694972517_61736075356862616_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="539555444_122112520628972517_4996634911245591351_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\539555444_122112520628972517_4996634911245591351_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="511139457_122171393948516195_9034961791273906161_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\511139457_122171393948516195_9034961791273906161_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="marco pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marco pizza.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="double peporoni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\double peporoni.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vodka pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vodka pizza.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="meat lover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\meat lover.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="margherita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\margherita.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken parm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken parm.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buffalo pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buffalo pizza.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vegetraian pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vegetraian pizza.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="olive pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\olive pizza.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="peperoni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\peperoni.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="proper pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\proper pizza.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="supreme pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\supreme pizza.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white pie pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white pie pizza.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hot honey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hot honey.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
