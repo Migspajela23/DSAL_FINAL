@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace WinFormsApp2
 {
-    public partial class EXAMPLE6 : Form
+    public partial class EXAMPLE6MOD : Form
     {
-        public EXAMPLE6()
+        public EXAMPLE6MOD()
         {
             InitializeComponent();
         }
 
-        private void EXAMPLE6_Load(object sender, EventArgs e)
+        private void EXAMPLE6MOD_Load(object sender, EventArgs e)
         {
             // Disabling text boxes that display calculated values to prevent user input.
             priceTxtbox.Enabled = false;
@@ -42,7 +42,6 @@ namespace WinFormsApp2
             pictureBox13.Image = Image.FromFile("C:\\Users\\Miguel Pajela\\Downloads\\hot honey.jpeg");
             pictureBox14.Image = Image.FromFile("C:\\Users\\Miguel Pajela\\Downloads\\marco pizza.jpeg");
             pictureBox15.Image = Image.FromFile("C:\\Users\\Miguel Pajela\\Downloads\\peperoni.jpg");
-
         }
 
         private void qtyTxtBox_TextChanged(object sender, EventArgs e)
@@ -96,7 +95,7 @@ namespace WinFormsApp2
             qtyTxtBox.Focus();
         }
 
-        private void foodBrdbtn_CheckedChanged(object sender, EventArgs e)
+        private void foodBRdbtn_CheckedChanged(object sender, EventArgs e)
         {
             this.BackColor = Color.LightGoldenrodYellow;
 
@@ -147,13 +146,15 @@ namespace WinFormsApp2
 
         private void printBtn_Click(object sender, EventArgs e)
         {
-            TRANSACTION print = new TRANSACTION();
-            print.PrintListBox.Items.AddRange(this.displayListBox.Items);
+            displayListBox print = new displayListBox();
+            // Fix: Cast PrintListBox to ListBox to access Items property
+            ((ListBox)print.PrintListBox).Items.AddRange(this.displayListBox.Items);
             print.Show();
         }
 
         private void removeBtn_Click(object sender, EventArgs e)
         {
+
             displayListBox.Items.RemoveAt(displayListBox.SelectedIndex);
         }
 
@@ -202,7 +203,6 @@ namespace WinFormsApp2
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-
             PricesTxtBox.Text = "95.30";
             double price = Convert.ToDouble(PricesTxtBox.Text);
             displayListBox.Items.Add(checkBox1.Text + "          " + PricesTxtBox.Text);
@@ -212,7 +212,6 @@ namespace WinFormsApp2
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
-
             PricesTxtBox.Text = "95.30";
             double price = Convert.ToDouble(PricesTxtBox.Text);
             displayListBox.Items.Add(checkBox2.Text + "          " + PricesTxtBox.Text);
@@ -222,17 +221,16 @@ namespace WinFormsApp2
 
         private void checkBox3_CheckedChanged(object sender, EventArgs e)
         {
-
             PricesTxtBox.Text = "95.30";
             double price = Convert.ToDouble(PricesTxtBox.Text);
             displayListBox.Items.Add(checkBox3.Text + "          " + PricesTxtBox.Text);
             qtyTxtBox.Text = "0";
             qtyTxtBox.Focus();
         }
+        
 
         private void checkBox4_CheckedChanged(object sender, EventArgs e)
         {
-
             PricesTxtBox.Text = "95.30";
             double price = Convert.ToDouble(PricesTxtBox.Text);
             displayListBox.Items.Add(checkBox4.Text + "          " + PricesTxtBox.Text);
@@ -252,17 +250,16 @@ namespace WinFormsApp2
 
         private void checkBox6_CheckedChanged(object sender, EventArgs e)
         {
-
             PricesTxtBox.Text = "95.30";
             double price = Convert.ToDouble(PricesTxtBox.Text);
             displayListBox.Items.Add(checkBox6.Text + "          " + PricesTxtBox.Text);
             qtyTxtBox.Text = "0";
             qtyTxtBox.Focus();
         }
+        
 
         private void checkBox7_CheckedChanged(object sender, EventArgs e)
         {
-
             PricesTxtBox.Text = "95.30";
             double price = Convert.ToDouble(PricesTxtBox.Text);
             displayListBox.Items.Add(checkBox7.Text + "          " + PricesTxtBox.Text);
@@ -272,7 +269,6 @@ namespace WinFormsApp2
 
         private void checkBox8_CheckedChanged(object sender, EventArgs e)
         {
-
             PricesTxtBox.Text = "95.30";
             double price = Convert.ToDouble(PricesTxtBox.Text);
             displayListBox.Items.Add(checkBox8.Text + "          " + PricesTxtBox.Text);
@@ -282,7 +278,6 @@ namespace WinFormsApp2
 
         private void checkBox9_CheckedChanged(object sender, EventArgs e)
         {
-
             PricesTxtBox.Text = "95.30";
             double price = Convert.ToDouble(PricesTxtBox.Text);
             displayListBox.Items.Add(checkBox9.Text + "          " + PricesTxtBox.Text);
@@ -292,7 +287,6 @@ namespace WinFormsApp2
 
         private void checkBox10_CheckedChanged(object sender, EventArgs e)
         {
-
             PricesTxtBox.Text = "95.30";
             double price = Convert.ToDouble(PricesTxtBox.Text);
             displayListBox.Items.Add(checkBox10.Text + "          " + PricesTxtBox.Text);
@@ -312,7 +306,6 @@ namespace WinFormsApp2
 
         private void checkBox12_CheckedChanged(object sender, EventArgs e)
         {
-
             PricesTxtBox.Text = "95.30";
             double price = Convert.ToDouble(PricesTxtBox.Text);
             displayListBox.Items.Add(checkBox12.Text + "          " + PricesTxtBox.Text);
@@ -329,7 +322,7 @@ namespace WinFormsApp2
             qtyTxtBox.Focus();
         }
 
-        private void checkBox14_CheckedChanged(object sender, EventArgs e)
+        private void checkBox16_CheckedChanged(object sender, EventArgs e)
         {
 
             PricesTxtBox.Text = "95.30";
@@ -339,29 +332,26 @@ namespace WinFormsApp2
             qtyTxtBox.Focus();
         }
 
-        private void checkBox15_CheckedChanged(object sender, EventArgs e)
+        private void checkBox17_CheckedChanged(object sender, EventArgs e)
         {
             PricesTxtBox.Text = "95.30";
             double price = Convert.ToDouble(PricesTxtBox.Text);
             displayListBox.Items.Add(checkBox15.Text + "          " + PricesTxtBox.Text);
             qtyTxtBox.Text = "0";
             qtyTxtBox.Focus();
-
         }
 
-        private void checkBox16_CheckedChanged(object sender, EventArgs e)
+        private void checkBox18_CheckedChanged(object sender, EventArgs e)
         {
             PricesTxtBox.Text = "95.30";
             double price = Convert.ToDouble(PricesTxtBox.Text);
             displayListBox.Items.Add(checkBox16.Text + "          " + PricesTxtBox.Text);
             qtyTxtBox.Text = "0";
             qtyTxtBox.Focus();
-
         }
 
-        private void checkBox17_CheckedChanged(object sender, EventArgs e)
+        private void checkBox19_CheckedChanged(object sender, EventArgs e)
         {
-
             PricesTxtBox.Text = "95.30";
             double price = Convert.ToDouble(PricesTxtBox.Text);
             displayListBox.Items.Add(checkBox17.Text + "          " + PricesTxtBox.Text);
@@ -369,29 +359,8 @@ namespace WinFormsApp2
             qtyTxtBox.Focus();
         }
 
-        private void checkBox18_CheckedChanged(object sender, EventArgs e)
-        {
-
-            PricesTxtBox.Text = "95.30";
-            double price = Convert.ToDouble(PricesTxtBox.Text);
-            displayListBox.Items.Add(checkBox18.Text + "          " + PricesTxtBox.Text);
-            qtyTxtBox.Text = "0";
-            qtyTxtBox.Focus();
-        }
-
-        private void checkBox19_CheckedChanged(object sender, EventArgs e)
-        {
-
-            PricesTxtBox.Text = "95.30";
-            double price = Convert.ToDouble(PricesTxtBox.Text);
-            displayListBox.Items.Add(checkBox19.Text + "          " + PricesTxtBox.Text);
-            qtyTxtBox.Text = "0";
-            qtyTxtBox.Focus();
-        }
-
         private void checkBox20_CheckedChanged(object sender, EventArgs e)
         {
-
             PricesTxtBox.Text = "95.30";
             double price = Convert.ToDouble(PricesTxtBox.Text);
             displayListBox.Items.Add(checkBox20.Text + "          " + PricesTxtBox.Text);

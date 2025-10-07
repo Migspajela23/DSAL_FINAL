@@ -34,10 +34,9 @@
             cashier2ToolStripMenuItem = new ToolStripMenuItem();
             cashier3ToolStripMenuItem = new ToolStripMenuItem();
             orderApplicationToolStripMenuItem = new ToolStripMenuItem();
+            orderApplicationToolStripMenuItem1 = new ToolStripMenuItem();
             accountingToolStripMenuItem = new ToolStripMenuItem();
             userAccountToolStripMenuItem = new ToolStripMenuItem();
-            enrollmentToolStripMenuItem = new ToolStripMenuItem();
-            enrollmentToolStripMenuItem1 = new ToolStripMenuItem();
             payrollToolStripMenuItem = new ToolStripMenuItem();
             payrollApplicationToolStripMenuItem = new ToolStripMenuItem();
             reportToolStripMenuItem = new ToolStripMenuItem();
@@ -45,13 +44,12 @@
             tileToolStripMenuItem = new ToolStripMenuItem();
             horizontalToolStripMenuItem = new ToolStripMenuItem();
             cascadeToolStripMenuItem = new ToolStripMenuItem();
-            orderApplicationToolStripMenuItem1 = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { pOSToolStripMenuItem, orderApplicationToolStripMenuItem, accountingToolStripMenuItem, enrollmentToolStripMenuItem, payrollToolStripMenuItem, reportToolStripMenuItem, windowsToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { pOSToolStripMenuItem, orderApplicationToolStripMenuItem, accountingToolStripMenuItem, payrollToolStripMenuItem, reportToolStripMenuItem, windowsToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(1904, 24);
@@ -93,6 +91,13 @@
             orderApplicationToolStripMenuItem.Size = new Size(113, 20);
             orderApplicationToolStripMenuItem.Text = "Order Application";
             // 
+            // orderApplicationToolStripMenuItem1
+            // 
+            orderApplicationToolStripMenuItem1.Name = "orderApplicationToolStripMenuItem1";
+            orderApplicationToolStripMenuItem1.Size = new Size(168, 22);
+            orderApplicationToolStripMenuItem1.Text = "Order Application";
+            orderApplicationToolStripMenuItem1.Click += orderApplicationToolStripMenuItem1_Click;
+            // 
             // accountingToolStripMenuItem
             // 
             accountingToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { userAccountToolStripMenuItem });
@@ -107,19 +112,6 @@
             userAccountToolStripMenuItem.Text = "User Account";
             userAccountToolStripMenuItem.Click += userAccountToolStripMenuItem_Click;
             // 
-            // enrollmentToolStripMenuItem
-            // 
-            enrollmentToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { enrollmentToolStripMenuItem1 });
-            enrollmentToolStripMenuItem.Name = "enrollmentToolStripMenuItem";
-            enrollmentToolStripMenuItem.Size = new Size(77, 20);
-            enrollmentToolStripMenuItem.Text = "Enrollment";
-            // 
-            // enrollmentToolStripMenuItem1
-            // 
-            enrollmentToolStripMenuItem1.Name = "enrollmentToolStripMenuItem1";
-            enrollmentToolStripMenuItem1.Size = new Size(132, 22);
-            enrollmentToolStripMenuItem1.Text = "Enrollment";
-            // 
             // payrollToolStripMenuItem
             // 
             payrollToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { payrollApplicationToolStripMenuItem });
@@ -130,7 +122,7 @@
             // payrollApplicationToolStripMenuItem
             // 
             payrollApplicationToolStripMenuItem.Name = "payrollApplicationToolStripMenuItem";
-            payrollApplicationToolStripMenuItem.Size = new Size(174, 22);
+            payrollApplicationToolStripMenuItem.Size = new Size(180, 22);
             payrollApplicationToolStripMenuItem.Text = "Payroll Application";
             payrollApplicationToolStripMenuItem.Click += payrollApplicationToolStripMenuItem_Click;
             // 
@@ -168,13 +160,6 @@
             cascadeToolStripMenuItem.Text = "Cascade";
             cascadeToolStripMenuItem.Click += cascadeToolStripMenuItem_Click;
             // 
-            // orderApplicationToolStripMenuItem1
-            // 
-            orderApplicationToolStripMenuItem1.Name = "orderApplicationToolStripMenuItem1";
-            orderApplicationToolStripMenuItem1.Size = new Size(180, 22);
-            orderApplicationToolStripMenuItem1.Text = "Order Application";
-            orderApplicationToolStripMenuItem1.Click += orderApplicationToolStripMenuItem1_Click;
-            // 
             // MAINFORM
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -202,13 +187,11 @@
         private ToolStripMenuItem cashier1ToolStripMenuItem;
         private ToolStripMenuItem cashier2ToolStripMenuItem;
         private ToolStripMenuItem cashier3ToolStripMenuItem;
-        private ToolStripMenuItem enrollmentToolStripMenuItem;
         private ToolStripMenuItem userAccountToolStripMenuItem;
         private ToolStripMenuItem payrollToolStripMenuItem;
         private ToolStripMenuItem payrollApplicationToolStripMenuItem;
         private ToolStripMenuItem reportToolStripMenuItem;
         private ToolStripMenuItem windowsToolStripMenuItem;
-        private ToolStripMenuItem enrollmentToolStripMenuItem1;
         private ToolStripMenuItem tileToolStripMenuItem;
         private ToolStripMenuItem horizontalToolStripMenuItem;
         private ToolStripMenuItem cascadeToolStripMenuItem;

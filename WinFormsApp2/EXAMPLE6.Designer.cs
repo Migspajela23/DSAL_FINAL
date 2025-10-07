@@ -189,7 +189,6 @@
             groupBox5.TabIndex = 32;
             groupBox5.TabStop = false;
             groupBox5.Text = "Items Display";
-            
             // 
             // exitBtn
             // 
@@ -829,7 +828,6 @@
             foodBRdbtn.TabStop = true;
             foodBRdbtn.Text = "Food Bundle B";
             foodBRdbtn.UseVisualStyleBackColor = true;
-            foodBRdbtn.CheckedChanged += foodBrdbtn_CheckedChanged;
             // 
             // foodARdbtn
             // 
@@ -841,7 +839,7 @@
             foodARdbtn.TabStop = true;
             foodARdbtn.Text = "Food  Bundle A";
             foodARdbtn.UseVisualStyleBackColor = true;
-            foodARdbtn.CheckedChanged += foodArdtn_CheckedChanged;
+            foodARdbtn.CheckedChanged += foodARdbtn_CheckedChanged;
             // 
             // label2
             // 
