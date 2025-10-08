@@ -44,8 +44,8 @@ namespace WinFormsApp2
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-               DisplayTxtBox_Load("Shin Ramen", "121.30");
-                quantityTxtbox();
+            DisplayTxtBox_Load("Shin Ramen", "121.30");
+            quantityTxtbox();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
@@ -55,13 +55,13 @@ namespace WinFormsApp2
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            DisplayTxtBox_Load("Spicy Buldak", "121.30");   
+            DisplayTxtBox_Load("Spicy Buldak", "121.30");
             quantityTxtbox();
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-            DisplayTxtBox_Load("Chicken Rice Bowl", "99");  
+            DisplayTxtBox_Load("Chicken Rice Bowl", "99");
             quantityTxtbox();
         }
 
@@ -72,19 +72,19 @@ namespace WinFormsApp2
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
-              DisplayTxtBox_Load( "Pastil Rice Bowl",  "99"); 
-                quantityTxtbox();
+            DisplayTxtBox_Load("Pastil Rice Bowl", "99");
+            quantityTxtbox();
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
-           DisplayTxtBox_Load( "Salmon Rice Bowl",  "99");
+            DisplayTxtBox_Load("Salmon Rice Bowl", "99");
             quantityTxtbox();
         }
 
         private void pictureBox10_Click(object sender, EventArgs e)
         {
-            DisplayTxtBox_Load("Tapa Rice Bowl", "99"); 
+            DisplayTxtBox_Load("Tapa Rice Bowl", "99");
             quantityTxtbox();
         }
 
@@ -95,24 +95,30 @@ namespace WinFormsApp2
 
         private void pictureBox12_Click(object sender, EventArgs e)
         {
-           DisplayTxtBox_Load("Welches", "65");
+            DisplayTxtBox_Load("Welches", "65");
         }
 
         private void pictureBox13_Click(object sender, EventArgs e)
         {
-            DisplayTxtBox_Load("Ice Talk Blue", "65"); 
+            DisplayTxtBox_Load("Ice Talk Blue", "65");
             quantityTxtbox();
         }
 
         private void pictureBox14_Click(object sender, EventArgs e)
         {
-            DisplayTxtBox_Load( "Assorted Ice Talk",  "65"); 
+            DisplayTxtBox_Load("Assorted Ice Talk", "65");
             quantityTxtbox();
         }
 
         private void pictureBox15_Click(object sender, EventArgs e)
-        {DisplayTxtBox_Load("Pocari", "65");
+        {
+            DisplayTxtBox_Load("Pocari", "65");
             quantityTxtbox();
+
+        }
+
+        private void DisplayTxtBox_Load(object sender, EventArgs e)
+        {
 
         }
     }

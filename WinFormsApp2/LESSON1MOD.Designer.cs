@@ -415,6 +415,7 @@
             Controls.Add(pictureBox1);
             Name = "DisplayTxtBox";
             Text = "LESSON1MOD";
+            Load += DisplayTxtBox_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
