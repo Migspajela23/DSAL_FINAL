@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace WinFormsApp2
 {
-    public partial class LESSON2MOD : Form
+    public partial class POS1_FUNCTION : Form
     {
         private int qty;
         private double price, discount_amt, discounted_amt;
 
-        public LESSON2MOD()
+        public POS1_FUNCTION()
         {
             InitializeComponent();
         }

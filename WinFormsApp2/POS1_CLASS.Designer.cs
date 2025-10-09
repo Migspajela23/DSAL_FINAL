@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp2
 {
-    partial class LESSON2MOD
+    partial class POS1_CLASS
     {
         /// <summary>
         /// Required designer variable.
@@ -188,10 +188,10 @@
             groupBox5.Controls.Add(pictureBox7);
             groupBox5.Controls.Add(pictureBox4);
             groupBox5.Controls.Add(pictureBox3);
-            groupBox5.Location = new Point(594, 5);
+            groupBox5.Location = new Point(577, 11);
             groupBox5.Name = "groupBox5";
             groupBox5.Size = new Size(919, 820);
-            groupBox5.TabIndex = 52;
+            groupBox5.TabIndex = 73;
             groupBox5.TabStop = false;
             groupBox5.Text = "Items Display";
             // 
@@ -392,7 +392,6 @@
             pictureBox21.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox21.TabIndex = 25;
             pictureBox21.TabStop = false;
-            pictureBox21.Click += pictureBox21_Click;
             // 
             // pictureBox20
             // 
@@ -403,7 +402,6 @@
             pictureBox20.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox20.TabIndex = 24;
             pictureBox20.TabStop = false;
-            pictureBox20.Click += pictureBox20_Click;
             // 
             // pictureBox19
             // 
@@ -415,7 +413,6 @@
             pictureBox19.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox19.TabIndex = 23;
             pictureBox19.TabStop = false;
-            pictureBox19.Click += pictureBox19_Click;
             // 
             // pictureBox18
             // 
@@ -427,7 +424,6 @@
             pictureBox18.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox18.TabIndex = 22;
             pictureBox18.TabStop = false;
-            pictureBox18.Click += pictureBox18_Click;
             // 
             // pictureBox17
             // 
@@ -439,7 +435,6 @@
             pictureBox17.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox17.TabIndex = 21;
             pictureBox17.TabStop = false;
-            pictureBox17.Click += pictureBox17_Click;
             // 
             // pictureBox16
             // 
@@ -451,7 +446,6 @@
             pictureBox16.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox16.TabIndex = 20;
             pictureBox16.TabStop = false;
-            pictureBox16.Click += pictureBox16_Click;
             // 
             // pictureBox15
             // 
@@ -462,7 +456,6 @@
             pictureBox15.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox15.TabIndex = 19;
             pictureBox15.TabStop = false;
-            pictureBox15.Click += pictureBox15_Click;
             // 
             // pictureBox14
             // 
@@ -474,7 +467,6 @@
             pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox14.TabIndex = 18;
             pictureBox14.TabStop = false;
-            pictureBox14.Click += pictureBox14_Click;
             // 
             // pictureBox13
             // 
@@ -486,7 +478,6 @@
             pictureBox13.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox13.TabIndex = 17;
             pictureBox13.TabStop = false;
-            pictureBox13.Click += pictureBox13_Click;
             // 
             // pictureBox12
             // 
@@ -497,7 +488,6 @@
             pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox12.TabIndex = 16;
             pictureBox12.TabStop = false;
-            pictureBox12.Click += pictureBox12_Click;
             // 
             // pictureBox11
             // 
@@ -509,7 +499,6 @@
             pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox11.TabIndex = 15;
             pictureBox11.TabStop = false;
-            pictureBox11.Click += pictureBox11_Click;
             // 
             // pictureBox10
             // 
@@ -521,7 +510,6 @@
             pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox10.TabIndex = 14;
             pictureBox10.TabStop = false;
-            pictureBox10.Click += pictureBox10_Click;
             // 
             // pictureBox6
             // 
@@ -532,7 +520,6 @@
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox6.TabIndex = 13;
             pictureBox6.TabStop = false;
-            pictureBox6.Click += pictureBox6_Click;
             // 
             // pictureBox5
             // 
@@ -544,7 +531,6 @@
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 12;
             pictureBox5.TabStop = false;
-            pictureBox5.Click += pictureBox5_Click;
             // 
             // pictureBox2
             // 
@@ -556,7 +542,6 @@
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 11;
             pictureBox2.TabStop = false;
-            pictureBox2.Click += pictureBox2_Click;
             // 
             // pictureBox9
             // 
@@ -568,7 +553,6 @@
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox9.TabIndex = 10;
             pictureBox9.TabStop = false;
-            pictureBox9.Click += pictureBox9_Click;
             // 
             // pictureBox8
             // 
@@ -580,7 +564,6 @@
             pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox8.TabIndex = 9;
             pictureBox8.TabStop = false;
-            pictureBox8.Click += pictureBox8_Click;
             // 
             // pictureBox7
             // 
@@ -592,7 +575,6 @@
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox7.TabIndex = 8;
             pictureBox7.TabStop = false;
-            pictureBox7.Click += pictureBox7_Click;
             // 
             // pictureBox4
             // 
@@ -604,7 +586,6 @@
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 7;
             pictureBox4.TabStop = false;
-            pictureBox4.Click += pictureBox4_Click;
             // 
             // pictureBox3
             // 
@@ -616,155 +597,154 @@
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 6;
             pictureBox3.TabStop = false;
-            pictureBox3.Click += pictureBox3_Click;
             // 
             // button16
             // 
             button16.FlatStyle = FlatStyle.Flat;
-            button16.Location = new Point(381, 770);
+            button16.Location = new Point(364, 776);
             button16.Name = "button16";
             button16.Size = new Size(90, 46);
-            button16.TabIndex = 51;
+            button16.TabIndex = 72;
             button16.Text = ".";
             button16.UseVisualStyleBackColor = true;
             // 
             // button15
             // 
             button15.FlatStyle = FlatStyle.Flat;
-            button15.Location = new Point(484, 770);
+            button15.Location = new Point(467, 776);
             button15.Name = "button15";
             button15.Size = new Size(90, 46);
-            button15.TabIndex = 50;
+            button15.TabIndex = 71;
             button15.Text = "1";
             button15.UseVisualStyleBackColor = true;
             // 
             // button14
             // 
             button14.FlatStyle = FlatStyle.Flat;
-            button14.Location = new Point(484, 722);
+            button14.Location = new Point(467, 728);
             button14.Name = "button14";
             button14.Size = new Size(90, 46);
-            button14.TabIndex = 49;
+            button14.TabIndex = 70;
             button14.Text = "5";
             button14.UseVisualStyleBackColor = true;
             // 
             // button13
             // 
             button13.FlatStyle = FlatStyle.Flat;
-            button13.Location = new Point(381, 718);
+            button13.Location = new Point(364, 724);
             button13.Name = "button13";
             button13.Size = new Size(90, 46);
-            button13.TabIndex = 48;
+            button13.TabIndex = 69;
             button13.Text = "4";
             button13.UseVisualStyleBackColor = true;
             // 
             // button12
             // 
             button12.FlatStyle = FlatStyle.Flat;
-            button12.Location = new Point(484, 670);
+            button12.Location = new Point(467, 676);
             button12.Name = "button12";
             button12.Size = new Size(90, 46);
-            button12.TabIndex = 47;
+            button12.TabIndex = 68;
             button12.Text = "9";
             button12.UseVisualStyleBackColor = true;
             // 
             // button11
             // 
             button11.FlatStyle = FlatStyle.Flat;
-            button11.Location = new Point(381, 670);
+            button11.Location = new Point(364, 676);
             button11.Name = "button11";
             button11.Size = new Size(90, 46);
-            button11.TabIndex = 46;
+            button11.TabIndex = 67;
             button11.Text = "8";
             button11.UseVisualStyleBackColor = true;
             // 
             // button10
             // 
             button10.FlatStyle = FlatStyle.Flat;
-            button10.Location = new Point(275, 718);
+            button10.Location = new Point(258, 724);
             button10.Name = "button10";
             button10.Size = new Size(90, 46);
-            button10.TabIndex = 45;
+            button10.TabIndex = 66;
             button10.Text = "3";
             button10.UseVisualStyleBackColor = true;
             // 
             // button9
             // 
             button9.FlatStyle = FlatStyle.Flat;
-            button9.Location = new Point(276, 670);
+            button9.Location = new Point(259, 676);
             button9.Name = "button9";
             button9.Size = new Size(90, 46);
-            button9.TabIndex = 41;
+            button9.TabIndex = 62;
             button9.Text = "7";
             button9.UseVisualStyleBackColor = true;
             // 
             // button8
             // 
             button8.FlatStyle = FlatStyle.Flat;
-            button8.Location = new Point(484, 618);
+            button8.Location = new Point(467, 624);
             button8.Name = "button8";
             button8.Size = new Size(90, 46);
-            button8.TabIndex = 44;
+            button8.TabIndex = 65;
             button8.Text = "+";
             button8.UseVisualStyleBackColor = true;
             // 
             // button7
             // 
             button7.FlatStyle = FlatStyle.Flat;
-            button7.Location = new Point(381, 618);
+            button7.Location = new Point(364, 624);
             button7.Name = "button7";
             button7.Size = new Size(90, 46);
-            button7.TabIndex = 43;
+            button7.TabIndex = 64;
             button7.Text = "-";
             button7.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
             button6.FlatStyle = FlatStyle.Flat;
-            button6.Location = new Point(274, 618);
+            button6.Location = new Point(257, 624);
             button6.Name = "button6";
             button6.Size = new Size(90, 46);
-            button6.TabIndex = 42;
+            button6.TabIndex = 63;
             button6.Text = "*";
             button6.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
             button5.FlatStyle = FlatStyle.Flat;
-            button5.Location = new Point(179, 770);
+            button5.Location = new Point(162, 776);
             button5.Name = "button5";
             button5.Size = new Size(187, 46);
-            button5.TabIndex = 40;
+            button5.TabIndex = 61;
             button5.Text = "button5";
             button5.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
             button4.FlatStyle = FlatStyle.Flat;
-            button4.Location = new Point(179, 718);
+            button4.Location = new Point(162, 724);
             button4.Name = "button4";
             button4.Size = new Size(90, 46);
-            button4.TabIndex = 39;
+            button4.TabIndex = 60;
             button4.Text = "2";
             button4.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
             button3.FlatStyle = FlatStyle.Flat;
-            button3.Location = new Point(180, 668);
+            button3.Location = new Point(163, 674);
             button3.Name = "button3";
             button3.Size = new Size(90, 46);
-            button3.TabIndex = 38;
+            button3.TabIndex = 59;
             button3.Text = "6";
             button3.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
             button2.FlatStyle = FlatStyle.Flat;
-            button2.Location = new Point(180, 618);
+            button2.Location = new Point(163, 624);
             button2.Name = "button2";
             button2.Size = new Size(90, 46);
-            button2.TabIndex = 37;
+            button2.TabIndex = 58;
             button2.Text = "/";
             button2.UseVisualStyleBackColor = true;
             // 
@@ -772,10 +752,10 @@
             // 
             regularRBtn.FlatStyle = FlatStyle.Flat;
             regularRBtn.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            regularRBtn.Location = new Point(18, 618);
+            regularRBtn.Location = new Point(1, 624);
             regularRBtn.Name = "regularRBtn";
             regularRBtn.Size = new Size(156, 198);
-            regularRBtn.TabIndex = 36;
+            regularRBtn.TabIndex = 57;
             regularRBtn.Text = "ENTER";
             regularRBtn.UseVisualStyleBackColor = true;
             // 
@@ -785,10 +765,10 @@
             groupBox3.Controls.Add(label10);
             groupBox3.Controls.Add(changetxtbox);
             groupBox3.Controls.Add(cash_renderedtxtbox);
-            groupBox3.Location = new Point(17, 458);
+            groupBox3.Location = new Point(0, 464);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new Size(543, 157);
-            groupBox3.TabIndex = 35;
+            groupBox3.TabIndex = 56;
             groupBox3.TabStop = false;
             // 
             // label11
@@ -837,10 +817,10 @@
             groupBox2.Controls.Add(discounted_totalbox);
             groupBox2.Controls.Add(discount_totalbox);
             groupBox2.Controls.Add(qty_totalbox);
-            groupBox2.Location = new Point(17, 286);
+            groupBox2.Location = new Point(0, 292);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(543, 157);
-            groupBox2.TabIndex = 34;
+            groupBox2.TabIndex = 55;
             groupBox2.TabStop = false;
             groupBox2.Text = "Summary";
             // 
@@ -913,10 +893,10 @@
             groupBox1.Controls.Add(pricetxtbox);
             groupBox1.Controls.Add(quantitytxtbox);
             groupBox1.Controls.Add(itemnametxtbox);
-            groupBox1.Location = new Point(17, 52);
+            groupBox1.Location = new Point(0, 58);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(543, 228);
-            groupBox1.TabIndex = 33;
+            groupBox1.TabIndex = 54;
             groupBox1.TabStop = false;
             // 
             // noDiscRdBtn
@@ -929,7 +909,6 @@
             noDiscRdBtn.TabStop = true;
             noDiscRdBtn.Text = "No Discount";
             noDiscRdBtn.UseVisualStyleBackColor = true;
-            noDiscRdBtn.CheckedChanged += noDiscRdBtn_CheckedChanged;
             // 
             // employeeDiscRdBtn
             // 
@@ -941,7 +920,6 @@
             employeeDiscRdBtn.TabStop = true;
             employeeDiscRdBtn.Text = "Employee Disc";
             employeeDiscRdBtn.UseVisualStyleBackColor = true;
-            employeeDiscRdBtn.CheckedChanged += employeeDiscRdBtn_CheckedChanged;
             // 
             // withDiscCardRdBtn
             // 
@@ -953,7 +931,6 @@
             withDiscCardRdBtn.TabStop = true;
             withDiscCardRdBtn.Text = "With Disc Card";
             withDiscCardRdBtn.UseVisualStyleBackColor = true;
-            withDiscCardRdBtn.CheckedChanged += withDiscCardRdBtn_CheckedChanged;
             // 
             // seniorCtznRdBtn
             // 
@@ -965,7 +942,6 @@
             seniorCtznRdBtn.TabStop = true;
             seniorCtznRdBtn.Text = "Senior Citizen";
             seniorCtznRdBtn.UseVisualStyleBackColor = true;
-            seniorCtznRdBtn.CheckedChanged += seniorCtznRdBtn_CheckedChanged;
             // 
             // button20
             // 
@@ -1101,17 +1077,17 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(57, 5);
+            label1.Location = new Point(40, 11);
             label1.Name = "label1";
             label1.Size = new Size(456, 47);
-            label1.TabIndex = 32;
+            label1.TabIndex = 53;
             label1.Text = "HAENG - BOK RAMEYEON";
             // 
-            // LESSON2MOD
+            // POS1_CLASS
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1530, 830);
+            ClientSize = new Size(1527, 843);
             Controls.Add(groupBox5);
             Controls.Add(button16);
             Controls.Add(button15);
@@ -1133,9 +1109,9 @@
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Controls.Add(label1);
-            Name = "LESSON2MOD";
-            Text = "LESSON2MOD";
-            Load += LESSON2MOD_Load;
+            Name = "POS1_CLASS";
+            Text = "LESSON2_CLASS";
+            
             groupBox5.ResumeLayout(false);
             groupBox5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox21).EndInit();

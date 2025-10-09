@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WinFormsApp2
 {
-    public partial class PAYROLLMOD : Form
+    public partial class PAYROLL_FUNCTION : Form
     {
-        public PAYROLLMOD()
+        public PAYROLL_FUNCTION()
         {
             InitializeComponent();
             basicIncomeTxtBox.Enabled = false;

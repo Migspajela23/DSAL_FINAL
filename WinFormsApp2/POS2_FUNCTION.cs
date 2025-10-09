@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WinFormsApp2
 {
-    public partial class EXAMPLE6MOD : Form
+    public partial class POS2_FUNCTION : Form
     {
-        public EXAMPLE6MOD()
+        public POS2_FUNCTION()
         {
             InitializeComponent();
         }

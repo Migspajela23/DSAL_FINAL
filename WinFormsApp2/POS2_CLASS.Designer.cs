@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp2
 {
-    partial class EXAMPLE6MOD
+    partial class POS2_CLASS
     {
         /// <summary>
         /// Required designer variable.
@@ -137,167 +137,166 @@
             // 
             // discountAmtTxtBox
             // 
-            discountAmtTxtBox.Location = new Point(134, 293);
+            discountAmtTxtBox.Location = new Point(75, 306);
             discountAmtTxtBox.Name = "discountAmtTxtBox";
             discountAmtTxtBox.Size = new Size(224, 23);
-            discountAmtTxtBox.TabIndex = 122;
+            discountAmtTxtBox.TabIndex = 159;
             // 
             // label13
             // 
             label13.AutoSize = true;
-            label13.Location = new Point(430, 760);
+            label13.Location = new Point(371, 773);
             label13.Name = "label13";
             label13.Size = new Size(83, 15);
-            label13.TabIndex = 121;
+            label13.TabIndex = 158;
             label13.Text = "ORDER IMAGE";
             // 
             // DisplayPictureBox
             // 
             DisplayPictureBox.BorderStyle = BorderStyle.Fixed3D;
-            DisplayPictureBox.Location = new Point(356, 543);
+            DisplayPictureBox.Location = new Point(297, 556);
             DisplayPictureBox.Name = "DisplayPictureBox";
             DisplayPictureBox.Size = new Size(207, 228);
-            DisplayPictureBox.TabIndex = 120;
+            DisplayPictureBox.TabIndex = 157;
             DisplayPictureBox.TabStop = false;
             // 
             // displayListBox
             // 
             displayListBox.FormattingEnabled = true;
             displayListBox.ItemHeight = 15;
-            displayListBox.Location = new Point(43, 541);
+            displayListBox.Location = new Point(-16, 554);
             displayListBox.Name = "displayListBox";
             displayListBox.Size = new Size(285, 244);
-            displayListBox.TabIndex = 119;
+            displayListBox.TabIndex = 156;
             // 
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(50, 467);
+            label10.Location = new Point(-9, 480);
             label10.Name = "label10";
             label10.Size = new Size(48, 15);
-            label10.TabIndex = 118;
+            label10.TabIndex = 155;
             label10.Text = "Change";
             // 
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(50, 428);
+            label11.Location = new Point(-9, 441);
             label11.Name = "label11";
             label11.Size = new Size(33, 15);
-            label11.TabIndex = 115;
+            label11.TabIndex = 152;
             label11.Text = "Cash";
             // 
             // changeTxtBox
             // 
-            changeTxtBox.Location = new Point(101, 477);
+            changeTxtBox.Location = new Point(42, 490);
             changeTxtBox.Name = "changeTxtBox";
             changeTxtBox.Size = new Size(205, 23);
-            changeTxtBox.TabIndex = 117;
+            changeTxtBox.TabIndex = 154;
             // 
             // cashGivenTxtBox
             // 
-            cashGivenTxtBox.Location = new Point(101, 438);
+            cashGivenTxtBox.Location = new Point(42, 451);
             cashGivenTxtBox.Name = "cashGivenTxtBox";
             cashGivenTxtBox.Size = new Size(205, 23);
-            cashGivenTxtBox.TabIndex = 116;
+            cashGivenTxtBox.TabIndex = 153;
             // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(34, 395);
+            label8.Location = new Point(-25, 408);
             label8.Name = "label8";
             label8.Size = new Size(82, 15);
-            label8.TabIndex = 114;
+            label8.TabIndex = 151;
             label8.Text = "Total Quantity";
             // 
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(44, 356);
+            label9.Location = new Point(-15, 369);
             label9.Name = "label9";
             label9.Size = new Size(57, 15);
-            label9.TabIndex = 111;
+            label9.TabIndex = 148;
             label9.Text = "Total Bills";
             // 
             // totalQtyTxtBox
             // 
-            totalQtyTxtBox.Location = new Point(115, 405);
+            totalQtyTxtBox.Location = new Point(56, 418);
             totalQtyTxtBox.Name = "totalQtyTxtBox";
             totalQtyTxtBox.Size = new Size(205, 23);
-            totalQtyTxtBox.TabIndex = 113;
+            totalQtyTxtBox.TabIndex = 150;
             // 
             // totalBillsTxtBox
             // 
-            totalBillsTxtBox.Location = new Point(101, 367);
+            totalBillsTxtBox.Location = new Point(42, 380);
             totalBillsTxtBox.Name = "totalBillsTxtBox";
             totalBillsTxtBox.Size = new Size(205, 23);
-            totalBillsTxtBox.TabIndex = 112;
+            totalBillsTxtBox.TabIndex = 149;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(34, 320);
+            label5.Location = new Point(-25, 333);
             label5.Name = "label5";
             label5.Size = new Size(114, 15);
-            label5.TabIndex = 110;
+            label5.TabIndex = 147;
             label5.Text = "Discounted Amount";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(34, 282);
+            label6.Location = new Point(-25, 295);
             label6.Name = "label6";
             label6.Size = new Size(101, 15);
-            label6.TabIndex = 108;
+            label6.TabIndex = 145;
             label6.Text = "Discount Amount";
             // 
             // discountedTxtBox
             // 
-            discountedTxtBox.Location = new Point(147, 331);
+            discountedTxtBox.Location = new Point(88, 344);
             discountedTxtBox.Name = "discountedTxtBox";
             discountedTxtBox.Size = new Size(205, 23);
-            discountedTxtBox.TabIndex = 109;
+            discountedTxtBox.TabIndex = 146;
             // 
             // discountTxtbox
             // 
             discountTxtbox.AutoSize = true;
-            discountTxtbox.Location = new Point(50, 242);
+            discountTxtbox.Location = new Point(-9, 255);
             discountTxtbox.Name = "discountTxtbox";
             discountTxtbox.Size = new Size(53, 15);
-            discountTxtbox.TabIndex = 107;
+            discountTxtbox.TabIndex = 144;
             discountTxtbox.Text = "Quantity";
             // 
             // priceTxtbox
             // 
             priceTxtbox.AutoSize = true;
-            priceTxtbox.Location = new Point(50, 203);
+            priceTxtbox.Location = new Point(-9, 216);
             priceTxtbox.Name = "priceTxtbox";
             priceTxtbox.Size = new Size(33, 15);
-            priceTxtbox.TabIndex = 103;
+            priceTxtbox.TabIndex = 140;
             priceTxtbox.Text = "Price";
             // 
             // qtyTxtBox
             // 
-            qtyTxtBox.Location = new Point(101, 252);
+            qtyTxtBox.Location = new Point(42, 265);
             qtyTxtBox.Name = "qtyTxtBox";
             qtyTxtBox.Size = new Size(205, 23);
-            qtyTxtBox.TabIndex = 106;
-            qtyTxtBox.TextChanged += qtyTxtBox_TextChanged;
+            qtyTxtBox.TabIndex = 143;
             // 
             // PricesTxtBox
             // 
-            PricesTxtBox.Location = new Point(101, 213);
+            PricesTxtBox.Location = new Point(42, 226);
             PricesTxtBox.Name = "PricesTxtBox";
             PricesTxtBox.Size = new Size(205, 23);
-            PricesTxtBox.TabIndex = 105;
+            PricesTxtBox.TabIndex = 142;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(60, 171);
+            label4.Location = new Point(1, 184);
             label4.Name = "label4";
             label4.Size = new Size(75, 15);
-            label4.TabIndex = 104;
+            label4.TabIndex = 141;
             label4.Text = "Order Details";
             // 
             // foodBRdbtn
@@ -305,54 +304,52 @@
             foodBRdbtn.AccessibleDescription = "";
             foodBRdbtn.AccessibleName = "foodBrdbtn";
             foodBRdbtn.AutoSize = true;
-            foodBRdbtn.Location = new Point(66, 128);
+            foodBRdbtn.Location = new Point(7, 141);
             foodBRdbtn.Name = "foodBRdbtn";
             foodBRdbtn.Size = new Size(102, 19);
-            foodBRdbtn.TabIndex = 102;
+            foodBRdbtn.TabIndex = 139;
             foodBRdbtn.TabStop = true;
             foodBRdbtn.Text = "Food Bundle B";
             foodBRdbtn.UseVisualStyleBackColor = true;
-            foodBRdbtn.CheckedChanged += foodBRdbtn_CheckedChanged;
             // 
             // foodARdbtn
             // 
             foodARdbtn.AutoSize = true;
-            foodARdbtn.Location = new Point(66, 103);
+            foodARdbtn.Location = new Point(7, 116);
             foodARdbtn.Name = "foodARdbtn";
             foodARdbtn.Size = new Size(106, 19);
-            foodARdbtn.TabIndex = 101;
+            foodARdbtn.TabIndex = 138;
             foodARdbtn.TabStop = true;
             foodARdbtn.Text = "Food  Bundle A";
             foodARdbtn.UseVisualStyleBackColor = true;
-            foodARdbtn.CheckedChanged += foodARdbtn_CheckedChanged;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(48, 75);
+            label2.Location = new Point(-11, 88);
             label2.Name = "label2";
             label2.Size = new Size(112, 15);
-            label2.TabIndex = 100;
+            label2.TabIndex = 137;
             label2.Text = "Food Order Choices";
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(288, -21);
+            label1.Location = new Point(229, -8);
             label1.Name = "label1";
             label1.Size = new Size(576, 50);
-            label1.TabIndex = 99;
+            label1.TabIndex = 136;
             label1.Text = "4JEE Food Ordering Application";
             // 
             // B_MediumPizzacheckBox
             // 
             B_MediumPizzacheckBox.AutoSize = true;
             B_MediumPizzacheckBox.FlatStyle = FlatStyle.Popup;
-            B_MediumPizzacheckBox.Location = new Point(398, 518);
+            B_MediumPizzacheckBox.Location = new Point(339, 531);
             B_MediumPizzacheckBox.Name = "B_MediumPizzacheckBox";
             B_MediumPizzacheckBox.Size = new Size(107, 19);
-            B_MediumPizzacheckBox.TabIndex = 98;
+            B_MediumPizzacheckBox.TabIndex = 135;
             B_MediumPizzacheckBox.Text = "1 Medium Pizza";
             B_MediumPizzacheckBox.UseVisualStyleBackColor = true;
             // 
@@ -360,10 +357,10 @@
             // 
             B_FriescheckBox.AutoSize = true;
             B_FriescheckBox.FlatStyle = FlatStyle.Popup;
-            B_FriescheckBox.Location = new Point(398, 481);
+            B_FriescheckBox.Location = new Point(339, 494);
             B_FriescheckBox.Name = "B_FriescheckBox";
             B_FriescheckBox.Size = new Size(95, 19);
-            B_FriescheckBox.TabIndex = 97;
+            B_FriescheckBox.TabIndex = 134;
             B_FriescheckBox.Text = "1 Family Fries";
             B_FriescheckBox.UseVisualStyleBackColor = true;
             // 
@@ -371,10 +368,10 @@
             // 
             B_CarbonaracheckBox.AutoSize = true;
             B_CarbonaracheckBox.FlatStyle = FlatStyle.Popup;
-            B_CarbonaracheckBox.Location = new Point(398, 445);
+            B_CarbonaracheckBox.Location = new Point(339, 458);
             B_CarbonaracheckBox.Name = "B_CarbonaracheckBox";
             B_CarbonaracheckBox.Size = new Size(126, 19);
-            B_CarbonaracheckBox.TabIndex = 96;
+            B_CarbonaracheckBox.TabIndex = 133;
             B_CarbonaracheckBox.Text = "1 Family Carbonara";
             B_CarbonaracheckBox.UseVisualStyleBackColor = true;
             // 
@@ -382,10 +379,10 @@
             // 
             B_ChickencheckBox.AutoSize = true;
             B_ChickencheckBox.FlatStyle = FlatStyle.Popup;
-            B_ChickencheckBox.Location = new Point(398, 409);
+            B_ChickencheckBox.Location = new Point(339, 422);
             B_ChickencheckBox.Name = "B_ChickencheckBox";
             B_ChickencheckBox.Size = new Size(97, 19);
-            B_ChickencheckBox.TabIndex = 95;
+            B_ChickencheckBox.TabIndex = 132;
             B_ChickencheckBox.Text = "6 pcs Chicken";
             B_ChickencheckBox.UseVisualStyleBackColor = true;
             // 
@@ -393,10 +390,10 @@
             // 
             B_halohalocheckBox.AutoSize = true;
             B_halohalocheckBox.FlatStyle = FlatStyle.Popup;
-            B_halohalocheckBox.Location = new Point(398, 371);
+            B_halohalocheckBox.Location = new Point(339, 384);
             B_halohalocheckBox.Name = "B_halohalocheckBox";
             B_halohalocheckBox.Size = new Size(112, 19);
-            B_halohalocheckBox.TabIndex = 94;
+            B_halohalocheckBox.TabIndex = 131;
             B_halohalocheckBox.Text = "4 Cups halo halo";
             B_halohalocheckBox.UseVisualStyleBackColor = true;
             // 
@@ -404,10 +401,10 @@
             // 
             A_SpecialPizzacheckBox.AutoSize = true;
             A_SpecialPizzacheckBox.FlatStyle = FlatStyle.Popup;
-            A_SpecialPizzacheckBox.Location = new Point(398, 250);
+            A_SpecialPizzacheckBox.Location = new Point(339, 263);
             A_SpecialPizzacheckBox.Name = "A_SpecialPizzacheckBox";
             A_SpecialPizzacheckBox.Size = new Size(90, 19);
-            A_SpecialPizzacheckBox.TabIndex = 93;
+            A_SpecialPizzacheckBox.TabIndex = 130;
             A_SpecialPizzacheckBox.Text = "Special Pizza";
             A_SpecialPizzacheckBox.UseVisualStyleBackColor = true;
             // 
@@ -415,10 +412,10 @@
             // 
             A_SidedishescheckBox.AutoSize = true;
             A_SidedishescheckBox.FlatStyle = FlatStyle.Popup;
-            A_SidedishescheckBox.Location = new Point(398, 213);
+            A_SidedishescheckBox.Location = new Point(339, 226);
             A_SidedishescheckBox.Name = "A_SidedishescheckBox";
             A_SidedishescheckBox.Size = new Size(91, 19);
-            A_SidedishescheckBox.TabIndex = 92;
+            A_SidedishescheckBox.TabIndex = 129;
             A_SidedishescheckBox.Text = "4 Side dishes";
             A_SidedishescheckBox.UseVisualStyleBackColor = true;
             // 
@@ -426,10 +423,10 @@
             // 
             A_CokecheckBox.AutoSize = true;
             A_CokecheckBox.FlatStyle = FlatStyle.Popup;
-            A_CokecheckBox.Location = new Point(398, 177);
+            A_CokecheckBox.Location = new Point(339, 190);
             A_CokecheckBox.Name = "A_CokecheckBox";
             A_CokecheckBox.Size = new Size(69, 19);
-            A_CokecheckBox.TabIndex = 91;
+            A_CokecheckBox.TabIndex = 128;
             A_CokecheckBox.Text = "1.5 Coke";
             A_CokecheckBox.UseVisualStyleBackColor = true;
             // 
@@ -437,10 +434,10 @@
             // 
             A_FriescheckBox.AutoSize = true;
             A_FriescheckBox.FlatStyle = FlatStyle.Popup;
-            A_FriescheckBox.Location = new Point(398, 141);
+            A_FriescheckBox.Location = new Point(339, 154);
             A_FriescheckBox.Name = "A_FriescheckBox";
             A_FriescheckBox.Size = new Size(89, 19);
-            A_FriescheckBox.TabIndex = 90;
+            A_FriescheckBox.TabIndex = 127;
             A_FriescheckBox.Text = "2 Large Fries";
             A_FriescheckBox.UseVisualStyleBackColor = true;
             // 
@@ -448,29 +445,29 @@
             // 
             A_ChickencheckBox.AutoSize = true;
             A_ChickencheckBox.FlatStyle = FlatStyle.Popup;
-            A_ChickencheckBox.Location = new Point(398, 103);
+            A_ChickencheckBox.Location = new Point(339, 116);
             A_ChickencheckBox.Name = "A_ChickencheckBox";
             A_ChickencheckBox.Size = new Size(103, 19);
-            A_ChickencheckBox.TabIndex = 89;
+            A_ChickencheckBox.TabIndex = 126;
             A_ChickencheckBox.Text = "10 pcs Chicken";
             A_ChickencheckBox.UseVisualStyleBackColor = true;
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(391, 339);
+            label7.Location = new Point(332, 352);
             label7.Name = "label7";
             label7.Size = new Size(89, 15);
-            label7.TabIndex = 88;
+            label7.TabIndex = 125;
             label7.Text = "Food Bundles B";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(391, 75);
+            label3.Location = new Point(332, 88);
             label3.Name = "label3";
             label3.Size = new Size(90, 15);
-            label3.TabIndex = 87;
+            label3.TabIndex = 124;
             label3.Text = "Food Bundles A";
             // 
             // groupBox5
@@ -521,10 +518,10 @@
             groupBox5.Controls.Add(pictureBox7Txt);
             groupBox5.Controls.Add(pictureBox4Txt);
             groupBox5.Controls.Add(pictureBox3Txt);
-            groupBox5.Location = new Point(585, 32);
+            groupBox5.Location = new Point(526, 45);
             groupBox5.Name = "groupBox5";
             groupBox5.Size = new Size(919, 820);
-            groupBox5.TabIndex = 86;
+            groupBox5.TabIndex = 123;
             groupBox5.TabStop = false;
             groupBox5.Text = "Items Display";
             // 
@@ -537,7 +534,6 @@
             exitBtn.TabIndex = 86;
             exitBtn.Text = "EXIT";
             exitBtn.UseVisualStyleBackColor = false;
-            exitBtn.Click += exitBtn_Click;
             // 
             // newBtn
             // 
@@ -548,7 +544,6 @@
             newBtn.TabIndex = 85;
             newBtn.Text = "NEW";
             newBtn.UseVisualStyleBackColor = false;
-            newBtn.Click += newBtn_Click;
             // 
             // removeBtn
             // 
@@ -559,7 +554,6 @@
             removeBtn.TabIndex = 84;
             removeBtn.Text = "REMOVE";
             removeBtn.UseVisualStyleBackColor = false;
-            removeBtn.Click += removeBtn_Click;
             // 
             // printBtn
             // 
@@ -570,7 +564,6 @@
             printBtn.TabIndex = 83;
             printBtn.Text = "PRINT TRANSACTION";
             printBtn.UseVisualStyleBackColor = false;
-            printBtn.Click += printBtn_Click;
             // 
             // calculateBtn
             // 
@@ -581,7 +574,6 @@
             calculateBtn.TabIndex = 82;
             calculateBtn.Text = "CALCULATE BILLS";
             calculateBtn.UseVisualStyleBackColor = false;
-            calculateBtn.Click += calculateBtn_Click;
             // 
             // checkBox20
             // 
@@ -592,7 +584,6 @@
             checkBox20.TabIndex = 81;
             checkBox20.Text = "Pizza 15";
             checkBox20.UseVisualStyleBackColor = true;
-            checkBox20.CheckedChanged += checkBox20_CheckedChanged;
             // 
             // checkBox19
             // 
@@ -603,7 +594,6 @@
             checkBox19.TabIndex = 80;
             checkBox19.Text = "Pizza 14";
             checkBox19.UseVisualStyleBackColor = true;
-            checkBox19.CheckedChanged += checkBox19_CheckedChanged;
             // 
             // checkBox18
             // 
@@ -614,7 +604,6 @@
             checkBox18.TabIndex = 79;
             checkBox18.Text = "Pizza 13";
             checkBox18.UseVisualStyleBackColor = true;
-            checkBox18.CheckedChanged += checkBox18_CheckedChanged;
             // 
             // checkBox17
             // 
@@ -625,7 +614,6 @@
             checkBox17.TabIndex = 78;
             checkBox17.Text = "Pizza 12";
             checkBox17.UseVisualStyleBackColor = true;
-            checkBox17.CheckedChanged += checkBox17_CheckedChanged;
             // 
             // checkBox16
             // 
@@ -636,7 +624,6 @@
             checkBox16.TabIndex = 77;
             checkBox16.Text = "Pizza 11";
             checkBox16.UseVisualStyleBackColor = true;
-            checkBox16.CheckedChanged += checkBox16_CheckedChanged;
             // 
             // checkBox15
             // 
@@ -667,7 +654,6 @@
             checkBox13.TabIndex = 74;
             checkBox13.Text = "Pizza 8";
             checkBox13.UseVisualStyleBackColor = true;
-            checkBox13.CheckedChanged += checkBox13_CheckedChanged;
             // 
             // checkBox12
             // 
@@ -678,7 +664,6 @@
             checkBox12.TabIndex = 73;
             checkBox12.Text = "Pizza 7";
             checkBox12.UseVisualStyleBackColor = true;
-            checkBox12.CheckedChanged += checkBox12_CheckedChanged;
             // 
             // checkBox11
             // 
@@ -689,7 +674,6 @@
             checkBox11.TabIndex = 72;
             checkBox11.Text = "Pizza 6";
             checkBox11.UseVisualStyleBackColor = true;
-            checkBox11.CheckedChanged += checkBox11_CheckedChanged;
             // 
             // checkBox10
             // 
@@ -700,7 +684,6 @@
             checkBox10.TabIndex = 71;
             checkBox10.Text = "Pizza 5";
             checkBox10.UseVisualStyleBackColor = true;
-            checkBox10.CheckedChanged += checkBox10_CheckedChanged;
             // 
             // checkBox9
             // 
@@ -711,7 +694,6 @@
             checkBox9.TabIndex = 70;
             checkBox9.Text = "Pizza 4";
             checkBox9.UseVisualStyleBackColor = true;
-            checkBox9.CheckedChanged += checkBox9_CheckedChanged;
             // 
             // checkBox8
             // 
@@ -722,7 +704,6 @@
             checkBox8.TabIndex = 69;
             checkBox8.Text = "Pizza 3";
             checkBox8.UseVisualStyleBackColor = true;
-            checkBox8.CheckedChanged += checkBox8_CheckedChanged;
             // 
             // checkBox7
             // 
@@ -733,7 +714,6 @@
             checkBox7.TabIndex = 68;
             checkBox7.Text = "Pizza 2";
             checkBox7.UseVisualStyleBackColor = true;
-            checkBox7.CheckedChanged += checkBox7_CheckedChanged;
             // 
             // checkBox6
             // 
@@ -744,7 +724,6 @@
             checkBox6.TabIndex = 67;
             checkBox6.Text = "Pizza 1";
             checkBox6.UseVisualStyleBackColor = true;
-            checkBox6.CheckedChanged += checkBox6_CheckedChanged;
             // 
             // checkBox5
             // 
@@ -755,7 +734,6 @@
             checkBox5.TabIndex = 66;
             checkBox5.Text = "Proper Pizza";
             checkBox5.UseVisualStyleBackColor = true;
-            checkBox5.CheckedChanged += checkBox5_CheckedChanged;
             // 
             // checkBox4
             // 
@@ -766,7 +744,6 @@
             checkBox4.TabIndex = 65;
             checkBox4.Text = "Hot Honey Pizza";
             checkBox4.UseVisualStyleBackColor = true;
-            checkBox4.CheckedChanged += checkBox4_CheckedChanged;
             // 
             // checkBox3
             // 
@@ -777,7 +754,6 @@
             checkBox3.TabIndex = 64;
             checkBox3.Text = "Double Peperoni Pizza";
             checkBox3.UseVisualStyleBackColor = true;
-            checkBox3.CheckedChanged += checkBox3_CheckedChanged;
             // 
             // checkBox2
             // 
@@ -788,7 +764,6 @@
             checkBox2.TabIndex = 63;
             checkBox2.Text = "Margharita Pizza";
             checkBox2.UseVisualStyleBackColor = true;
-            checkBox2.CheckedChanged += checkBox2_CheckedChanged;
             // 
             // checkBox1
             // 
@@ -799,7 +774,6 @@
             checkBox1.TabIndex = 62;
             checkBox1.Text = "Buffalo Pizza";
             checkBox1.UseVisualStyleBackColor = true;
-            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
             // 
             // label12
             // 
@@ -1014,11 +988,11 @@
             pictureBox3Txt.TabIndex = 6;
             pictureBox3Txt.TabStop = false;
             // 
-            // EXAMPLE6MOD
+            // EXAMPLE6_CLASS
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1552, 909);
+            ClientSize = new Size(1421, 856);
             Controls.Add(discountAmtTxtBox);
             Controls.Add(label13);
             Controls.Add(DisplayPictureBox);
@@ -1056,9 +1030,9 @@
             Controls.Add(label7);
             Controls.Add(label3);
             Controls.Add(groupBox5);
-            Name = "EXAMPLE6MOD";
-            Text = "EXAMPLE6MOD";
-            Load += EXAMPLE6MOD_Load;
+            Name = "EXAMPLE6_CLASS";
+            Text = "EXAMPLE6_CLASS";
+            Load += EXAMPLE6_CLASS_Load;
             ((System.ComponentModel.ISupportInitialize)DisplayPictureBox).EndInit();
             groupBox5.ResumeLayout(false);
             groupBox5.PerformLayout();
