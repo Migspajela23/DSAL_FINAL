@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace WinFormsApp2
 {
-    internal class variables1 
+    internal class Variables1
     {
-        public Double amount_paid;
+        public Double quantity;
         public Double price;
         public Double cash_given;
         public Double change;
         public Double qty_total = 0;
         public Double discount_totalgiven = 0;
-        public Double discount_total = 0;
-        public Double discounted_amt;
+        public Double discounted_total = 0;
         public Double discount_amt;
-        public Double total_amountpaid;
-        public Int32 qty;
+        public Double discounted_amt;
+        public Double total_amountPaid;
+        public Int32 amount_paid;
     }
 }
