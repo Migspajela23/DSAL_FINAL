@@ -638,6 +638,7 @@
             prDepartmentTxtBox.Name = "prDepartmentTxtBox";
             prDepartmentTxtBox.Size = new Size(398, 23);
             prDepartmentTxtBox.TabIndex = 6;
+            prDepartmentTxtBox.Text = "LYCEUM OF THE PHILLIPINES";
             // 
             // textBox1
             // 
@@ -645,6 +646,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(398, 23);
             textBox1.TabIndex = 5;
+            textBox1.Text = "COLLEGE OF ENGINEERING ARCHITECHTURE";
             // 
             // label2
             // 

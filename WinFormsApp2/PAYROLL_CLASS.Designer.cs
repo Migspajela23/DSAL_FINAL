@@ -128,6 +128,7 @@
             button5.TabIndex = 410;
             button5.Text = "NEW";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // saveBtn
             // 
@@ -137,6 +138,7 @@
             saveBtn.TabIndex = 409;
             saveBtn.Text = "SAVE";
             saveBtn.UseVisualStyleBackColor = true;
+            saveBtn.Click += saveBtn_Click_1;
             // 
             // button2
             // 
@@ -146,6 +148,7 @@
             button2.TabIndex = 408;
             button2.Text = "NET INCOME";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // grossIncomeBtn
             // 
@@ -155,6 +158,7 @@
             grossIncomeBtn.TabIndex = 407;
             grossIncomeBtn.Text = "GROSS INCOME:";
             grossIncomeBtn.UseVisualStyleBackColor = true;
+            grossIncomeBtn.Click += grossIncomeBtn_Click_1;
             // 
             // label42
             // 
@@ -781,7 +785,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(968, 870);
+            ClientSize = new Size(968, 830);
             Controls.Add(button1);
             Controls.Add(button5);
             Controls.Add(saveBtn);

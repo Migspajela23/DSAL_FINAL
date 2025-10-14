@@ -15,6 +15,8 @@ namespace WinFormsApp2
     {
         private Price_Item_Value price_discount_amount, item_priceValue;
 
+        public object PrintListBox { get; private set; }
+
         public POS2_CLASS()
         {
             InitializeComponent();
@@ -296,7 +298,7 @@ namespace WinFormsApp2
 
         private void removeBtn_Click(object sender, EventArgs e)
         {
-            displayListBox.Items.RemoveAt(displayListBox.SelectedIndex);
+                displayListBox.Items.RemoveAt(displayListBox.SelectedIndex);
         }
 
         private void printBtn_Click(object sender, EventArgs e)
