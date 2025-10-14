@@ -44,6 +44,7 @@
             label2 = new Label();
             pictureBox1 = new PictureBox();
             picpathTxtBox = new TextBox();
+            browseBtn = new Button();
             ((System.ComponentModel.ISupportInitialize)griddisplay).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -123,6 +124,7 @@
             SearchBtn.TabIndex = 10;
             SearchBtn.Text = "SEARCH";
             SearchBtn.UseVisualStyleBackColor = true;
+            SearchBtn.Click += SearchBtn_Click;
             // 
             // cancelBtn
             // 
@@ -172,9 +174,9 @@
             // pictureBox1
             // 
             pictureBox1.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox1.Location = new Point(24, 132);
+            pictureBox1.Location = new Point(24, 122);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(586, 567);
+            pictureBox1.Size = new Size(590, 530);
             pictureBox1.TabIndex = 16;
             pictureBox1.TabStop = false;
             // 
@@ -185,11 +187,22 @@
             picpathTxtBox.Size = new Size(302, 23);
             picpathTxtBox.TabIndex = 17;
             // 
+            // browseBtn
+            // 
+            browseBtn.Location = new Point(215, 672);
+            browseBtn.Name = "browseBtn";
+            browseBtn.Size = new Size(140, 50);
+            browseBtn.TabIndex = 18;
+            browseBtn.Text = "BROWSE";
+            browseBtn.UseVisualStyleBackColor = true;
+            browseBtn.Click += browseBtn_Click;
+            // 
             // STUDENT_INFO
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1254, 747);
+            Controls.Add(browseBtn);
             Controls.Add(picpathTxtBox);
             Controls.Add(pictureBox1);
             Controls.Add(label2);
@@ -231,5 +244,6 @@
         private Label label2;
         private PictureBox pictureBox1;
         private TextBox picpathTxtBox;
+        private Button browseBtn;
     }
 }

@@ -27,17 +27,17 @@ namespace WinFormsApp2
 
         public STUDENT_INFO()
         {
-            connectionString = "Data Source = LAPTOP-RF7MTOVT\\SQLEXPRESS; Initial Catlog = SampleDataBaseDb; Trusted_connection = True ";
+            connectionString = "Data Source = LAPTOP-RF7MTOVT\\SQLEXPRESS; Initial Catalog = SampleDataBaseDb; Trusted_connection = True ";
             connection = new SqlConnection(connectionString);
             InitializeComponent();
         }
 
         private void saveBtn_Click(object sender, EventArgs e)
         {
-            if (connection.State != ConnectionState.Open) 
+            if (connection.State != ConnectionState.Open)
                 connection.Open();
-            
-            connection.Open();
+
+
             sql = "INSERT INTO studentTb1 (student_id, student_name, department,picpath)" +
                 "VALUES('" + studentNumTxtBox.Text + "', '" + studentNameTxtBox.Text + " '  ,' " + departmentTxtBox.Text + " ' ,' "
                  + picpathTxtBox.Text + "')";
@@ -46,7 +46,7 @@ namespace WinFormsApp2
 
             adaptersql = new SqlDataAdapter();
             adaptersql.InsertCommand = command;
-            command. ExecuteNonQuery();
+            command.ExecuteNonQuery();
 
             sql = "SELECT * FROM studentTb1";
             command = new SqlCommand(sql, connection);
@@ -65,16 +65,26 @@ namespace WinFormsApp2
             studentNameTxtBox.Clear();
             departmentTxtBox.Clear();
             picpathTxtBox.Clear();
-           
+
             if (connection.State != ConnectionState.Closed)
                 connection.Close();
 
             connection.Close();
-            
-            
 
 
 
+
+
+
+        }
+
+        private void SearchBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void browseBtn_Click(object sender, EventArgs e)
+        {
 
         }
     }
