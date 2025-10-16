@@ -80,11 +80,130 @@ namespace WinFormsApp2
 
         private void SearchBtn_Click(object sender, EventArgs e)
         {
+            if (connection.State != ConnectionState.Open)
+                connection.Open();
+            sql = "SELECT * FROM studentTb1 WHERE student_id = '" + studentNumTxtBox.Text + "' ";
+            command = new SqlCommand(sql, connection);
+            command.CommandType = CommandType.Text;
 
+            adaptersql = new SqlDataAdapter();
+            adaptersql.SelectCommand = command;
+            command.ExecuteNonQuery();
+
+            dset = new DataSet();
+            adaptersql.Fill(dset, "studentTb1");
+
+            griddisplay.DataSource = dset.Tables[0];
+
+            studentNameTxtBox.Text = dset.Tables[0].Rows[0][1].ToString();
+            departmentTxtBox.Text = dset.Tables[0].Rows[0][2].ToString();
+            picpathTxtBox.Text = dset.Tables[0].Rows[0][3].ToString();
+           
+
+
+            if (connection.State != ConnectionState.Closed)
+                connection.Close();
         }
 
         private void browseBtn_Click(object sender, EventArgs e)
         {
+            using OpenFileDialog openFileDialog = new OpenFileDialog
+            {
+
+                Title = "Browse Image Files",
+                Filter = "Image Files|*.jpg;*.jpeg;*.png;*.gif;*.bmp",
+                Multiselect = false
+
+
+
+
+            }; if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                Image selectedImage = Image.FromFile(openFileDialog.FileName);
+                pictureBox1.Image = selectedImage;
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            }
+        }
+
+        private void deleteBtn_Click(object sender, EventArgs e)
+        {
+            if (connection.State != ConnectionState.Open)
+                connection.Open();
+
+            sql = "DELETE FROM studentTb1 WHERE student_id = '" + studentNumTxtBox.Text + "' ";
+            command = new SqlCommand(sql, connection);
+            command.CommandType = CommandType.Text;
+
+            adaptersql = new SqlDataAdapter();
+            adaptersql.DeleteCommand = command;
+            command.ExecuteNonQuery();
+
+            sql = "SELECT * FROM studentTb1";
+            command = new SqlCommand(sql, connection);
+            command.CommandType = CommandType.Text;
+
+            adaptersql = new SqlDataAdapter();
+            adaptersql.SelectCommand = command;
+            command.ExecuteNonQuery();
+
+            dset = new DataSet();
+            adaptersql.Fill(dset, "studentTb1");
+
+            griddisplay.DataSource = dset.Tables[0];
+            pictureBox1.Image = Image.FromFile("C:\\Users\\Miguel Pajela\\Downloads\\pfp.jpg");
+
+            if (connection.State != ConnectionState.Closed)
+                connection.Close();
+        }
+
+        private void editBtn_Click(object sender, EventArgs e)
+        {
+            if (connection.State != ConnectionState.Open)
+                connection.Open();
+
+            sql = "UPDATE studentTb1 SET student_name = '" + studentNameTxtBox.Text + " ' , department = ' " + departmentTxtBox.Text + " ' , picpath = ' "
+                 + picpathTxtBox.Text + " ' WHERE student_id = '" + studentNumTxtBox.Text + "' ";
+            command = new SqlCommand(sql, connection);
+            command.CommandType = CommandType.Text;
+
+            adaptersql = new SqlDataAdapter();
+            adaptersql.UpdateCommand = command;
+            command.ExecuteNonQuery();
+
+            sql = "SELECT * FROM studentTb1";
+            command = new SqlCommand(sql, connection);
+            command.CommandType = CommandType.Text;
+
+            dset = new DataSet();
+            adaptersql.Fill(dset, "studentTb1");
+
+            griddisplay.DataSource = dset.Tables[0];
+            pictureBox1.Image = Image.FromFile("C:\\Users\\Miguel Pajela\\Downloads\\pfp.jpg");
+            studentNumTxtBox.Clear();
+            studentNameTxtBox.Clear();
+            departmentTxtBox.Clear();
+            picpathTxtBox.Clear();
+
+            if (connection.State != ConnectionState.Closed)
+                connection.Close();
+        }
+
+        private void newBtn_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Image.FromFile("C:\\Users\\Miguel Pajela\\Downloads\\pfp.jpg");
+            studentNumTxtBox.Clear();
+            studentNameTxtBox.Clear();
+            departmentTxtBox.Clear();
+            picpathTxtBox.Clear();
+        }
+
+        private void cancelBtn_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Image.FromFile("C:\\Users\\Miguel Pajela\\Downloads\\pfp.jpg");
+            studentNumTxtBox.Clear();
+            studentNameTxtBox.Clear();
+            departmentTxtBox.Clear();
+            picpathTxtBox.Clear();
 
         }
     }

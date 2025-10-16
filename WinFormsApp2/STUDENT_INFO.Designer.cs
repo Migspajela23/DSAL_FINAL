@@ -115,6 +115,7 @@
             editBtn.TabIndex = 9;
             editBtn.Text = "EDIT";
             editBtn.UseVisualStyleBackColor = true;
+            editBtn.Click += editBtn_Click;
             // 
             // SearchBtn
             // 
@@ -134,6 +135,7 @@
             cancelBtn.TabIndex = 11;
             cancelBtn.Text = "CANCEL";
             cancelBtn.UseVisualStyleBackColor = true;
+            cancelBtn.Click += cancelBtn_Click;
             // 
             // deleteBtn
             // 
@@ -143,6 +145,7 @@
             deleteBtn.TabIndex = 12;
             deleteBtn.Text = "DELETE";
             deleteBtn.UseVisualStyleBackColor = true;
+            deleteBtn.Click += deleteBtn_Click;
             // 
             // newBtn
             // 
@@ -152,6 +155,7 @@
             newBtn.TabIndex = 13;
             newBtn.Text = "NEW";
             newBtn.UseVisualStyleBackColor = true;
+            newBtn.Click += newBtn_Click;
             // 
             // griddisplay
             // 
