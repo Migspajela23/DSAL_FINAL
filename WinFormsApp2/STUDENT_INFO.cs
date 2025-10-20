@@ -9,19 +9,19 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 //
 using System.Data.SqlClient;
-using System.Data;
+
 
 namespace WinFormsApp2
 {
     public partial class STUDENT_INFO : Form
     {
         String picpath;
-        String connectionString = null;
+        String connectionString;
         SqlConnection connection;
         SqlCommand command;
         DataSet dset;
         SqlDataAdapter adaptersql;
-        string sql = null;
+        string? sql = null;
 
 
 
@@ -69,7 +69,7 @@ namespace WinFormsApp2
             if (connection.State != ConnectionState.Closed)
                 connection.Close();
 
-            connection.Close();
+            
 
 
 
